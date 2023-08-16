@@ -1,0 +1,7 @@
+/* Defina um seletor para o body para aplicar o background */
+body {
+    background-image: url('background1.jpg'); /* Nome do arquivo, tem que tá no mesmo diretório */
+    background-size: cover; /* Cover justa a imagem para cobrir todo a página */
+    background-repeat: no-repeat; /* Impede que a imagem se repita na página */
+    background-attachment: fixed; /* Mantém a imagem fixa enquanto a página rola */
+}
