@@ -1,0 +1,223 @@
+/*Reset*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', Helvetica, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: radial-gradient(
+        circle,
+        #ffffff,
+        #ffffff,
+        #ffffff,
+        #ffffff,
+        #ffffff,
+        #f7fcff,
+        #e7fbff,
+        #d6fbff,
+        #9ffff9,
+        #6cffde,
+        #56ffb0,
+        #6bf972
+    );
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+/*cabeçalho*/
+
+h1,
+p {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #0d6203;
+}
+
+h3,
+p {
+    text-align: center;
+}
+
+h3 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #0d6203;
+}
+
+/*galeria*/
+
+.container {
+    display: inline-block;
+    max-width: 1500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cols-6 .card {
+    width: 11rem;
+}
+
+.card {
+    flex: 1;
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+}
+
+.card {
+    display: inline-block;
+    width: 200px;
+    margin: 25px;
+    border: 2px solid #085805;
+    border-radius: 5px;
+}
+
+.card-image:hover {
+    background-color: #ffffff;
+    color: #085805;
+    border-color: #085805;
+}
+
+.card-image {
+    height: 200px;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.card-1 .card-image {
+    background-image: url('imagens/loja/alecrim.jpg');
+}
+
+.card-2 .card-image {
+    background-image: url('imagens/loja/anis-estrelado.jpg');
+}
+
+.card-3 .card-image {
+    background-image: url('imagens/loja/camomila.jpg');
+}
+
+.card-4 .card-image {
+    background-image: url('imagens/loja/canela.jpg');
+}
+
+.card-5 .card-image {
+    background-image: url('imagens/loja/cidreira.jpg');
+}
+
+.card-6 .card-image {
+    background-image: url('imagens/loja/cravo.png');
+}
+
+.card-7 .card-image {
+    background-image: url('imagens/loja/erva-doce.jpg');
+}
+
+.card-8 .card-image {
+    background-image: url('imagens/loja/erva-mate.png');
+}
+
+.card-9 .card-image {
+    background-image: url('imagens/loja/gengibre.png');
+}
+
+.card-10 .card-image {
+    background-image: url('imagens/loja/hibisco.jpg');
+}
+
+.card-11 .card-image {
+    background-image: url('imagens/loja/lavanda.jpg');
+}
+
+.card-12 .card-image {
+    background-image: url('imagens/loja/oregano.png');
+}
+
+.btn {
+    display: block;
+    background-color: #085805;
+    color: azure;
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid transparent;
+    font-weight: bold;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #30802d;
+    color: #ffffff;
+    border-color: #30802d;
+}
+
+.card-description {
+    padding: 20px 10px;
+}
+
+/*responsivo*/
+
+@keyframes container {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    75% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+/* Estilo do rodapé (footer) */
+
+footer {
+    /* background-color: #fff; */
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+}
+
+a {
+    display: block;
+    text-align: center;
+    /* background-color: #fff; */
+    color: #0d00ff;
+    text-decoration: none;
+    /* text-decoration: underline; */
+    margin-top: 0;
+    transition: 0.9s;
+    font-size: 15px;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+/* .rodape {
+    margin: 30px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+
+.voltar {
+    margin: 10px;
+    text-align: center;
+} */
