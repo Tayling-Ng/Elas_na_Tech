@@ -1,137 +1,149 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="faleconosco.css" />
+        <link rel="stylesheet" href="trabalhe-conosco.css" />
+        <title>Documento</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="faleconosco.css">
-    <link rel="stylesheet" href="trabalhe-conosco.css">
-    <title>Documento</title>
-</head>
+    <body>
+        <main class="trabalhe-conosco">
+            <h1 class="trabalhe-conosco__titulo">Trabalhe conosco</h1>
 
-<body>
-    <main class="trabalhe-conosco">
-        <h1 class="trabalhe-conosco__titulo">Trabalhe conosco</h1>
+            <div class="container-imagem-e-formulario">
+                <form method="get" class="formulario">
+                    <fieldset>
+                        <div class="container-legend">
+                            <legend>Seus dados:</legend>
+                        </div>
 
-        <div class="container-imagem-e-formulario">
-            <form method="get" class="formulario">
-                <fieldset>
-                    <div class="container-legend">
-                        <legend>Seus dados:</legend>
+                        <div class="container-formulario">
+                            <div class="container-label-input">
+                                <div class="container-label">
+                                    <label> Nome: </label>
+                                </div>
+                                <div class="container-input">
+                                    <input type="text" autofocus required />
+                                </div>
+                            </div>
+
+                            <div class="container-label-input">
+                                <div class="container-label">
+                                    <label> Telefone: </label>
+                                </div>
+                                <div class="container-input">
+                                    <input
+                                        type="tel"
+                                        placeholder="(xx) xxxxx-xxxx"
+                                    />
+                                </div>
+                            </div>
+
+                            <div class="container-label-input">
+                                <div class="container-label">
+                                    <label> Endereço: </label>
+                                </div>
+                                <div class="container-input">
+                                    <textarea
+                                        name="endereco"
+                                        id=""
+                                        cols="30"
+                                        rows="10"
+                                        placeholder="Estado, cidade, bairro, rua, número (bloco apartamento)"
+                                    ></textarea>
+                                </div>
+                            </div>
+
+                            <div class="container-label-input">
+                                <div class="container-label">
+                                    <label> Experiência profissional: </label>
+                                </div>
+                                <div class="container-input">
+                                    <textarea
+                                        name="experiencia-profissional"
+                                        cols="30"
+                                        rows="10"
+                                        maxlength="300"
+                                    ></textarea>
+                                </div>
+                            </div>
+
+                            <div class="container-label-input">
+                                <div class="container-label">
+                                    <label> Formação: </label>
+                                </div>
+                                <div class="container-input">
+                                    <textarea
+                                        name=""
+                                        id=""
+                                        cols="30"
+                                        rows="10"
+                                    ></textarea>
+                                </div>
+                            </div>
+
+                            <div class="container-label-input">
+                                <div class="container-label">
+                                    <label> Cursos realizados: </label>
+                                </div>
+                                <div class="container-input">
+                                    <textarea
+                                        name=""
+                                        id=""
+                                        cols="30"
+                                        rows="10"
+                                    ></textarea>
+                                </div>
+                            </div>
+
+                            <div class="container-label-input">
+                                <div class="container-label">
+                                    <label> Redes sociais: </label>
+                                </div>
+                                <div class="container-input">
+                                    <textarea
+                                        name="linkedin"
+                                        maxlength="100"
+                                        cols="30"
+                                        rows="10"
+                                        placeholder="https://exemplo/link.com"
+                                    ></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <div class="container-submit">
+                        <input type="submit" value="Enviar" />
                     </div>
+                </form>
+            </div>
+            <a href="index.html">Página Inicial</a>
+        </main>
 
-                    <div class="container-formulario">
-                        <div class="container-label-input">
-                            <div class="container-label">
-                                <label>
-                                    Nome:
-                                </label>
-                            </div>
-                            <div class="container-input">
-                                <input type="text" autofocus required>
-                            </div>
-                        </div>
+        <footer>
+            <div class="logo-footer">
+                <h1>MÃE TERRA</h1>
+            </div>
 
-                        <div class="container-label-input">
-                            <div class="container-label">
-                                <label>
-                                    Telefone:
-                                </label>
-                            </div>
-                            <div class="container-input">
-                                <input type="tel" placeholder="(xx) xxxxx-xxxx">
-                            </div>
-                        </div>
+            <div class="footer-redes">
+                <a href="https://github.com/Tayling-Ngs"
+                    ><img src="imagens/loja/github.png" alt="#"
+                /></a>
+                <a href="https://www.linkedin.com/in/taylingng/"
+                    ><img src="imagens/loja/linkedin.png" alt="#"
+                /></a>
+                <a href="https://wa.me/557187144878?text=Mãe_Terra"
+                    ><img src="imagens/loja/whatsapp.png" alt="#"
+                /></a>
+            </div>
 
-                        <div class="container-label-input">
-                            <div class="container-label">
-                                <label>
-                                    Endereço:
-                                </label>
-                            </div>
-                            <div class="container-input">
-                                <textarea name="endereco" id="" cols="30" rows="10"
-                                    placeholder="Estado, cidade, bairro, rua, número (bloco apartamento)"></textarea>
-                            </div>
-                        </div>
-
-                        <div class="container-label-input">
-                            <div class="container-label">
-                                <label>
-                                    Experiência profissional:
-                                </label>
-                            </div>
-                            <div class="container-input">
-                                <textarea name="experiencia-profissional" cols="30" rows="10"
-                                    maxlength="300"></textarea>
-                            </div>
-                        </div>
-
-                        <div class="container-label-input">
-                            <div class="container-label">
-                                <label>
-                                    Formação:
-                                </label>
-                            </div>
-                            <div class="container-input">
-                                <textarea name="" id="" cols="30" rows="10"></textarea>
-                            </div>
-                        </div>
-
-                        <div class="container-label-input">
-                            <div class="container-label">
-                                <label>
-                                    Cursos realizados:
-                                </label>
-                            </div>
-                            <div class="container-input">
-                                <textarea name="" id="" cols="30" rows="10"></textarea>
-                            </div>
-                        </div>
-
-                        <div class="container-label-input">
-                            <div class="container-label">
-                                <label>
-                                    Redes sociais:
-                                </label>
-                            </div>
-                            <div class="container-input">
-                                <textarea name="linkedin" maxlength="100" cols="30" rows="10"
-                                    placeholder="https://exemplo/link.com"></textarea>
-                            </div>
-                        </div>
-                    </div>
-                </fieldset>
-
-                <div class="container-submit">
-                    <input type="submit" value="Enviar">
-                </div>
-
-            </form>
-        </div>
-        <a href="index.html">Página Inicial</a>
-    </main>
-
-    <footer>
-
-        <div class="logo-footer">
-            <h1>MÃE TERRA</h1>
-        </div>
-
-        <div class="footer-redes">
-            <a href="https://github.com/Tayling-Ngs"><img src="imagens/loja/github.png" alt="#"></a>
-            <a href="https://www.linkedin.com/in/taylingng/"><img src="imagens/loja/linkedin.png" alt="#"></a>
-            <a href="https://wa.me/557187144878?text=Mãe_Terra"><img src="imagens/loja/whatsapp.png" alt="#"></a>
-        </div>
-
-
-
-        <hr class="footer-content">
-        <div class="copy">
-            <p>© Developer Tayling Ng | Atividade - Elas na Tech 2023.</p>
-        </div>
-    </footer>
-
-</body>
-
+            <hr class="footer-content" />
+            <div class="copy">
+                <p>© Developer Tayling Ng | Atividade - Elas na Tech 2023.</p>
+            </div>
+        </footer>
+    </body>
 </html>
