@@ -1,7 +1,9 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url(imagens/background/background_paginas.jpeg);
+    background-image: url(imagens/loja/mountains-100367_1280.jpg);
+    background-size: contain;
     background-size: cover;
+    background-attachment: fixed;
     margin: 0;
     padding: 0;
 }
@@ -10,7 +12,7 @@ main {
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #fff2d8;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -63,24 +65,23 @@ button {
 button:hover {
     background-color: #000000;
 }
-/*
-a {
-  display: block;
-  text-align: center;
-  color: #4a87e8;
-  text-decoration: none;
-  /* text-decoration: underline; */
-/* margin-top: 15px;
-  transition: 0.3s;
-} */
 
 a {
     display: block;
     text-align: center;
-    /* background-color: #fff; */
+    color: #4a87e8;
+    text-decoration: none;
+    text-decoration: underline;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+a {
+    display: block;
+    text-align: center;
     color: #0d00ff;
     text-decoration: none;
-    /* text-decoration: underline; */
+    text-decoration: underline;
     margin-top: 15px;
     transition: 0.9s;
     font-size: 15px;
@@ -89,6 +90,12 @@ a {
 a:hover {
     opacity: 0.7;
 }
+
+.footer-redes {
+    display: flex;
+    justify-content: center;
+}
+
 
 /* Responsivo */
 
@@ -102,4 +109,42 @@ a:hover {
     nav ul {
         text-align: center;
     }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+footer {
+    background-color: #04eefa;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo-footer h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.footer-redes a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+hr.footer-content {
+    border-color: white;
+}
+
+.copy {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.footer-redes img {
+    width: 24px;
+    height: 24px;
 }

@@ -4,13 +4,14 @@
 }
 
 body {
-
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
     font-style: italic;
     font-style: inherit;
     background-image: url(imagens/background/background_index.jpg);
     background-size: cover;
+    background-position: bottom right;
+    background-repeat: no-repeat;
 }
 
 h1 {
@@ -18,7 +19,7 @@ h1 {
     margin: 100px;
     color: #211c1c;
     font-size: x-large;
-    font-family: 'Poppins, Helvetica, sans-serif';
+    font-family: "Poppins, Helvetica, sans-serif";
     font-size: 70px;
     margin-bottom: 5px;
 }
@@ -28,17 +29,16 @@ h2 {
     margin: 100px;
     color: #121111;
     font-size: x-large;
-    font-family: 'Poppins, Helvetica, sans-serif';
+    font-family: "Poppins, Helvetica, sans-serif";
     font-size: 38px;
     margin-top: 5px;
 }
 
 .shadowed-font {
-  font-size: 20px; /* Define o tamanho da fonte */
-  color: rgb(0, 0, 0); /* Define a cor do texto */
-  text-shadow: 4px 4px 4px rgb(255, 255, 255); /* Define uma sombra de texto com deslocamento horizontal de 2px, deslocamento vertical de 2px, desfoque de 4px e cor preta com 50% de opacidade */
+    font-size: 20px; /* Define o tamanho da fonte */
+    color: rgb(0, 0, 0); /* Define a cor do texto */
+    text-shadow: 4px 4px 4px rgb(255, 255, 255); /* Define uma sombra de texto com deslocamento horizontal de 2px, deslocamento vertical de 2px, desfoque de 4px e cor preta com 50% de opacidade */
 }
-
 
 .menu {
     list-style: none;
@@ -81,10 +81,9 @@ h2 {
 }
 
 .menu li ul li {
-    border: 1px solid: #18abc5;
+    border: 1px solid #18abc5;
     display: block;
     width: 150px;
-
 }
 
 .texto {
@@ -99,18 +98,79 @@ h2 {
     padding: 10px;
     /* Espaçamento interno */
     float: left;
-    font-family: 'Poppins, Helvetica, sans-serif';
+    font-family: "Poppins, Helvetica, sans-serif";
     text-align: justify;
     font-size: 1.5em;
-
 }
 
-.rodape {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  /* background-color: #f1f1f1; */
-  padding: 10px;
-  text-align: center;
-  font-size: 1.0em;
+@media screen and (max-width: 767px) {
+    .menu {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    nav {
+        width: 100%;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 25px;
+        text-align: center;
+        margin-top: 2rem;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+footer {
+    background-color: #04eefa;
+    color: white;
+    margin-top: 50%;
+    text-align: center;
+}
+
+.logo-footer h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.footer-redes a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+
+hr.footer-content {
+    border-color: white;
+}
+
+.copy {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.footer-redes img {
+    width: 24px;
+    height: 24px;
+}
+h1 {
+    text-align: center;
+    padding-bottom: 1%;
 }

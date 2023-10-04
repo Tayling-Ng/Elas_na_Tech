@@ -3,7 +3,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Poppins', Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
 }
 
 body {
@@ -92,51 +92,51 @@ h3 {
 }
 
 .card-1 .card-image {
-    background-image: url('imagens/loja/alecrim.jpg');
+    background-image: url("imagens/loja/alecrim.jpg");
 }
 
 .card-2 .card-image {
-    background-image: url('imagens/loja/anis-estrelado.jpg');
+    background-image: url("imagens/loja/anis-estrelado.jpg");
 }
 
 .card-3 .card-image {
-    background-image: url('imagens/loja/camomila.jpg');
+    background-image: url("imagens/loja/camomila.jpg");
 }
 
 .card-4 .card-image {
-    background-image: url('imagens/loja/canela.jpg');
+    background-image: url("imagens/loja/canela.jpg");
 }
 
 .card-5 .card-image {
-    background-image: url('imagens/loja/cidreira.jpg');
+    background-image: url("imagens/loja/cidreira.jpg");
 }
 
 .card-6 .card-image {
-    background-image: url('imagens/loja/cravo.png');
+    background-image: url("imagens/loja/cravo.png");
 }
 
 .card-7 .card-image {
-    background-image: url('imagens/loja/erva-doce.jpg');
+    background-image: url("imagens/loja/erva-doce.jpg");
 }
 
 .card-8 .card-image {
-    background-image: url('imagens/loja/erva-mate.png');
+    background-image: url("imagens/loja/erva-mate.png");
 }
 
 .card-9 .card-image {
-    background-image: url('imagens/loja/gengibre.png');
+    background-image: url("imagens/loja/gengibre.png");
 }
 
 .card-10 .card-image {
-    background-image: url('imagens/loja/hibisco.jpg');
+    background-image: url("imagens/loja/hibisco.jpg");
 }
 
 .card-11 .card-image {
-    background-image: url('imagens/loja/lavanda.jpg');
+    background-image: url("imagens/loja/lavanda.jpg");
 }
 
 .card-12 .card-image {
-    background-image: url('imagens/loja/oregano.png');
+    background-image: url("imagens/loja/oregano.png");
 }
 
 .btn {
@@ -162,6 +162,11 @@ h3 {
     padding: 20px 10px;
 }
 
+.voltar {
+    display: flex;
+    justify-content: center;
+}
+
 /*responsivo*/
 
 @keyframes container {
@@ -181,43 +186,41 @@ h3 {
         opacity: 0;
     }
 }
-
-/* Estilo do rodapé (footer) */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
 
 footer {
-    /* background-color: #fff; */
-    color: #000000;
+    background-color: #04eefa;
+    color: white;
+    padding: 20px;
     text-align: center;
-    padding: 10px;
 }
 
-a {
-    display: block;
-    text-align: center;
-    /* background-color: #fff; */
-    color: #0d00ff;
+.logo-footer h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.footer-redes a {
+    margin: 0 10px;
     text-decoration: none;
-    /* text-decoration: underline; */
-    margin-top: 0;
-    transition: 0.9s;
-    font-size: 15px;
+    color: white;
 }
 
-a:hover {
-    opacity: 0.5;
+hr.footer-content {
+    border-color: white;
 }
 
-/* .rodape {
-    margin: 30px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #f1f1f1;
-    padding: 10px;
-    text-align: center;
+.copy {
+    margin-top: 20px;
+    font-size: 12px;
 }
 
-.voltar {
-    margin: 10px;
-    text-align: center;
-} */
+.footer-redes img {
+    width: 24px;
+    height: 24px;
+}

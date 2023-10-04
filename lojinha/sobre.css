@@ -1,0 +1,155 @@
+body {
+    background-image: linear-gradient(
+        to right bottom,
+        #5fc5fb,
+        #00d8fa,
+        #00e7e8,
+        #44f4c6,
+        #92fb9d,
+        #92fb9d,
+        #92fb9d,
+        #92fb9d,
+        #44f4c6,
+        #00e7e8,
+        #00d8fa,
+        #5fc5fb
+    );
+    background-repeat: no-repeat;
+}
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-sobre {
+    display: flex;
+    width: 90%;
+    height: 90%;
+    background-color: #e6f89e;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.8);
+}
+.container-imagem {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem {
+    height: 70%;
+    width: 90%;
+    background-image: url(imagens/tay.jpeg);
+    background-position: center;
+}
+
+.depoimento {
+    width: 100%;
+    height: 100%;
+    text-align: justify;
+    font-size: 23px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.depoimento p {
+    width: 90%;
+}
+
+
+h1 {
+    font-size: x-large;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(97, 42, 3);
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 1rem;
+}
+
+.voltar {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+        align-items: center;
+        height: 120vh;
+    }
+
+    .container-sobre {
+        flex-direction: column;
+        width: 98%;
+    }
+
+    .container-imagem {
+        width: 100%;
+        height: 40%;
+    }
+
+    .imagem {
+        background-size: cover;
+        width: 40%;
+    }
+
+    .depoimento {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+    }
+
+    .depoimento p {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+footer {
+    background-color: #04eefa;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo-footer h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.footer-redes a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+
+hr.footer-content {
+    border-color: white;
+}
+
+.copy {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.footer-redes img {
+    width: 24px;
+    height: 24px;
+}

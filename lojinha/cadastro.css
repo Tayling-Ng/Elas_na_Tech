@@ -1,144 +1,115 @@
 body {
-    margin: 0;
-    padding: 0;
+    padding: 15rem 0;
+}
+body {
     font-family: Arial, sans-serif;
-    background-repeat: no-repeat;
-    background-image: url(imagens/background/background9.jpg);
-    background-size: cover;
-    /* background-color: rgb(227, 201, 170); */
-}
-
-/* header {
-  background-color: #333;
-  color: #cdcbd9;
-  padding: 10px;
-  font-size: 30px;
-} */
-
-nav ul {
-    list-style: none;
     margin: 0;
     padding: 0;
+    background-image: url(imagens/loja/mountains-100367_1280.jpg);
+    background-size: contain;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
     display: flex;
-}
-
-nav li {
-    margin-right: 20px;
-}
-
-nav a {
-    color: #fff;
-    text-decoration: none;
-}
-
-section h2 {
-    padding: 20px;
-    text-align: center;
-    font-size: 35px;
-}
-section {
-    padding: 20px;
-}
-
-form {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-fieldset {
-    margin-bottom: 20px;
-}
-
-legend {
-    font-weight: bold;
-}
-
-label,
-input {
-    display: block;
-    width: 100%;
-    box-sizing: border-box;
-    margin-bottom: 5px;
-}
-
-input,
-textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-input[type='submit'] {
-    background-color: #085805;
-    color: #ffffff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 15px;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-input[type='reset'] {
-    background-color: #085805;
-    color: #ffffff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 15px;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-a {
-    display: block;
-    margin-top: 20px;
-    color: #350cd9;
-    text-decoration: none;
-    font-size: 18px;
+    justify-content: center;
+    padding: 5rem 0;
 }
 
 footer {
-    /* background-color: #fff; */
-    color: #000000;
+    background-color: #04eefa;
+    color: white;
     text-align: center;
-    padding: 10px;
+    padding: 1rem;
 }
 
-a {
+.logo-footer h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.footer-redes a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+
+hr.footer-content {
+    border-color: white;
+}
+
+.copy {
+    margin-top: 20px;
+    font-size: 12px;
+}
+ 
+.footer-redes img {
+    width: 24px;
+    height: 24px;
+}
+
+.container {
+    background-color: #fff2d8;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    width: 300px;
+}
+
+
+.login-form h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 05px;
+}
+
+input {
+    width: 100%;
+    padding: 0px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    height: 30px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #085805;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0d00ff;
+}
+
+.links {
+    margin-top: 10px;
+}
+
+.links a {
     display: block;
     text-align: center;
-    /* background-color: #fff; */
+    margin-bottom: 5px;
     color: #0d00ff;
     text-decoration: none;
-    text-decoration: underline;
-    margin-top: 0;
-    transition: 0.9s;
     font-size: 15px;
 }
 
-a:hover {
-    opacity: 0.5;
+.links a:last-child {
+    margin-bottom: 10;
 }
 
-/* Estilo para dispositivos móveis */
-@media screen and (max-width: 600px) {
-    header {
-        text-align: center;
-    }
-
-    nav ul {
-        flex-direction: column;
-    }
-
-    nav li {
-        margin-right: 0;
-        margin-bottom: 10px;
-    }
-
-    a {
-        margin: 0 auto;
-    }
+.links a:hover {
+    text-decoration: underline;
 }
